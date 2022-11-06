@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <title>Weather for little princess</title>
+    <title>Weather for my love</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -24,6 +24,11 @@
   <body>
     <div class="container">
       <div class="row">
+        <div class="col-sm-4">
+          <div class="card over coty">
+            <p class="SignatureForecast"></p>
+          </div>
+        </div>
         <div class="col-sm-7">
           <div class="card over">
             <div class="card-body">
@@ -96,6 +101,14 @@
                   </div>
                 </div>
               </div>
+              <div class="container">
+                <div class="row">
+                  <div
+                    class="col-2 weather-forecast"
+                    id="weather-forecast"
+                  ></div>
+                </div>
+              </div>
             </div>
             <div class="open-source">
               <a href="https://github.com/DenisovaSS/gidhub" target="_blank"
@@ -103,13 +116,6 @@
               >
               by Svitlana Denysova
             </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card over">
-            <p class="SignatureForecast">Forecast for next 4 days</p>
-
-            <div class="card-body" id="weather-forecast"></div>
           </div>
         </div>
       </div>

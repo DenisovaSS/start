@@ -88,45 +88,6 @@ function displayForecast(response) {
   document.querySelector(".max_temperature").innerHTML = `${Math.round(
     Fdays[0].temperature.maximum
   )}°`;
-  let forecastElement = document.querySelector("#weather-forecast");
-  let forecastHTML = "";
-  // let Fdays = ["Sunday", "Monday", "Tuesday", "Wednesday","Thursday","Friday"];
-  Fdays.forEach(function (Fday, index) {
-    if (index < 5 && index > 0) {
-      forecastHTML =
-        forecastHTML +
-        `<div class="container forecastBody" >
-        <div class="row text-center">
-        <div class="col-3">
-                        <div class="data_day">
-                  ${ForamtDay(Fday.time)} <br />
-                   ${Foramtmonth(Fday.time)}             
-                </div>
-                </div>
-                <div class="col-5">
-                  <span class="emoji">
-                   ${Math.round(Fday.temperature.minimum)}&deg/${Math.round(
-          Fday.temperature.maximum
-        )}&deg
-                    </span>
-                    </div>
-               
-                <div class="col-4 ">
-                                 
-                   <img src="${
-                     Fday.condition.icon_url
-                   }"width="80px"alt=""class="forecast_icon"id="forecast_icon"/>  
-                   </div>
-
-                 
-                
-              </div>
-              </div>
-               </div>`;
-    }
-  });
-
-  forecastElement.innerHTML = forecastHTML;
 }
 
 function getForecast(coordinate) {
@@ -197,4 +158,5 @@ let yourLocation = document.querySelector(".current");
 yourLocation.addEventListener("click", getCurrentLocation);
 
 cityPosition("Dnipro");
-//my link: https://magenta-souffle-ab6ac7.netlify.app/
+//my link: https://tiny-pastelito-1beff2.netlify.app/
+//my link forprogects:

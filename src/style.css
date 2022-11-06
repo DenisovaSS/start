@@ -21,7 +21,10 @@ body {
   padding-top: 20px;
   font-size: 20px;
 }
-
+.coty {
+  background-image: url("../image/cat.jpg");
+  background-size: cover;
+}
 h2 {
   font-size: 70px;
   padding-top: 20px;
@@ -39,13 +42,6 @@ h2 {
   border-radius: 20px;
   background-size: cover;
   color: #ffcccc;
-}
-.forecastBody {
-  border: 2px solid white;
-  border-radius: 20px;
-  margin-top: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .emoji {
@@ -104,7 +100,4 @@ button {
   font-size: 20px;
   margin-bottom: 0;
   padding: 15px 15px 0 15px;
-}
-#weather-forecast {
-  padding-top: 0;
 }
