@@ -1,0 +1,110 @@
+.container {
+  min-width: fit-content;
+  display: block;
+  margin: 10px auto;
+}
+.over {
+  height: 100%;
+  background: linear-gradient(
+    106.5deg,
+    rgba(255, 215, 185, 0.91) 23%,
+    rgba(223, 159, 247, 0.8) 93%
+  );
+}
+body {
+  padding-left: 10px;
+  background-image: url("../image/clouds.jpg");
+  background-size: cover;
+}
+.visible_day {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 70px;
+  padding-top: 20px;
+  color: #57385c;
+}
+.city_temp {
+  font-size: 140px;
+  text-align: center;
+}
+.research {
+  border: 1px solid #57385c;
+  background-image: url("../image/feel-top.jpg");
+  background-size: 800px 400px;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  background-size: cover;
+  color: #ffcccc;
+}
+.forecastBody {
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.emoji {
+  color: #57385c;
+  font-size: 30px;
+
+  padding: 15px 2% 5px;
+  display: inline-table;
+}
+.data_day {
+  padding: 15px 2% 5px 20px;
+  display: inline-table;
+}
+.units {
+  position: relative;
+  top: -100px;
+  font-size: 22px;
+}
+button {
+  margin: 0 10px 10px 10px;
+}
+.form-label {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 30px;
+
+  font-family: "Dancing Script", cursive;
+}
+.form-control {
+  margin-left: 20px;
+}
+.container_sint {
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+}
+
+.temperature_com .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-decoration: none;
+}
+.temperature_com {
+  text-align: center;
+}
+.cloud {
+  display: block;
+  margin: 0 auto;
+}
+.open-source {
+  margin: 10px;
+  font-size: 10px;
+}
+.SignatureForecast {
+  font-family: "Dancing Script", cursive;
+  color: #57385c;
+  font-size: 20px;
+  margin-bottom: 0;
+  padding: 15px 15px 0 15px;
+}
+#weather-forecast {
+  padding-top: 0;
+}
