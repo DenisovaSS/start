@@ -88,6 +88,33 @@ function displayForecast(response) {
   document.querySelector(".max_temperature").innerHTML = `${Math.round(
     Fdays[0].temperature.maximum
   )}°`;
+  let forecastElement = document.querySelector("#weather-forecast");
+  let forecastHTML = `<div class="row">`;
+  Fdays.forEach(function (Fday, index) {
+    if (index < 6 && index > 0) {
+      forecastHTML =
+        forecastHTML +
+        `
+    <div class="col-2">
+                    <div class="data_day">
+                  ${ForamtDay(Fday.time)} <br />
+                   ${Foramtmonth(Fday.time)}             
+                </div>
+                <div> <img src="${
+                  Fday.condition.icon_url
+                }"width="80px"alt=""class="forecast_icon"id="forecast_icon"/></div>                    
+                    <div class="emoji">
+                   ${Math.round(Fday.temperature.minimum)}&deg/${Math.round(
+          Fday.temperature.maximum
+        )}&deg
+                    </div>
+                    
+                    </div>`;
+    }
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
 }
 
 function getForecast(coordinate) {
