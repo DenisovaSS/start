@@ -91,11 +91,11 @@ function displayForecast(response) {
   let forecastElement = document.querySelector("#weather-forecast");
   let forecastHTML = `<div class="row">`;
   Fdays.forEach(function (Fday, index) {
-    if (index < 6 && index > 0) {
+    if (index < 5 && index > 0) {
       forecastHTML =
         forecastHTML +
         `
-    <div class="col-2">
+    <div class="col-3">
                     <div class="data_day">
                   ${ForamtDay(Fday.time)} <br />
                    ${Foramtmonth(Fday.time)}             

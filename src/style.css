@@ -5,16 +5,15 @@
 }
 .over {
   height: 100%;
+  background: #a5bdfd;
+}
+body {
+  padding-left: 10px;
   background: linear-gradient(
     112.1deg,
     rgb(32, 38, 57) 11.4%,
     rgb(63, 76, 119) 70.2%
   );
-}
-body {
-  padding-left: 10px;
-  background-image: url("../image/clouds.jpg");
-  background-size: cover;
 }
 .visible_day {
   text-align: center;
@@ -36,7 +35,7 @@ h2 {
 }
 .research {
   border: 1px solid #57385c;
-  background-image: url("../image/feel-top.jpg");
+  background-image: url("../image/papi3.jpg");
   background-size: 800px 400px;
   background-repeat: no-repeat;
   border-radius: 20px;
@@ -67,8 +66,9 @@ button {
   padding-left: 10px;
   padding-top: 10px;
   font-size: 30px;
-
+  color: #69e9f5;
   font-family: "Dancing Script", cursive;
+  font-weight: bold;
 }
 .form-control {
   margin-left: 20px;
