@@ -45,7 +45,7 @@ h2 {
 
 .emoji {
   color: #57385c;
-  font-size: 30px;
+  font-size: 20px;
 
   padding: 15px 2% 5px;
   display: inline-table;
@@ -98,6 +98,11 @@ button {
   font-family: "Dancing Script", cursive;
   color: #57385c;
   font-size: 20px;
-  margin-bottom: 0;
-  padding: 15px 15px 0 15px;
+  text-align: center;
+  font-weight: bold;
+  background: white;
+  margin: 30px 40px;
+  padding: 15px;
+  border: 1px dotted #57385c;
+  border-radius: 50%;
 }

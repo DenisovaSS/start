@@ -153,6 +153,14 @@ function showTemperature(response) {
   let celsi = document.querySelector("#celsius");
   celsi.addEventListener("click", temperatureCelsius);
 
+  function ShowMyCity(event) {
+    event.preventDefault();
+    cityPosition("Mendip District");
+  }
+
+  let Mycity = document.querySelector("#myCity");
+  Mycity.addEventListener("click", ShowMyCity);
+
   function temperatureFahrenheit(event) {
     event.preventDefault();
     let tempfahren = document.querySelector(".city_temp");
