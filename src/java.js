@@ -195,5 +195,5 @@ let yourLocation = document.querySelector(".current");
 yourLocation.addEventListener("click", getCurrentLocation);
 
 cityPosition("Dnipro");
-//my link: https://tiny-pastelito-1beff2.netlify.app/
-//my link forprogects:
+//my link: https://heartfelt-bubblegum-561f83.netlify.app/
+//my link forprogects: https://app.netlify.com/teams/denisovass/overview
